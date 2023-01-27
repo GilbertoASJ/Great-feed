@@ -7,13 +7,13 @@ export function Post() {
                 <header>
                     <div className={styles.author}>
                         <img 
-                            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=100" 
+                            src="https://github.com/GilbertoASJ.png" 
                             alt="Imagem de perfil do autor" 
                             className={styles.avatar}
                         />
-                        <div className={author.info}>
-                            <strong>Josy Ferreira</strong>
-                            <span>Publicitária</span>
+                        <div className={styles.authorInfo}>
+                            <strong>Gilberto Alves</strong>
+                            <span>Desenvolvedor Web</span>
                         </div>
                     </div>
 
