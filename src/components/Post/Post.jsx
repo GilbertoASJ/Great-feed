@@ -24,11 +24,21 @@ export function Post() {
                 <div className={styles.content}>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                     <p>
-                        At quaerat tempore explicabo, voluptate asperiores aliquid totam dolor dicta sapiente veniam officia accusantium id hic eaque nisi dolorum alias animi!
+                        At quaerat tempore explicabo, voluptate asperiores aliquid totam dolor 
+                        dicta sapiente veniam officia accusantium id hic eaque nisi dolorum alias animi!
                     </p> 
                     <p>-&gt; <a href="#">Doloribus?</a></p>
                     <p><a href="#">#lorem #ipsum #dolor_sit_amet</a></p>
                 </div>
+
+                <form className={styles.commentForm}>
+                    <strong>Deixe seu feedback</strong>
+
+                    <textarea placeholder='Deixe um comentário' />
+                    <footer>
+                        <button type='submit'>Comentar</button>
+                    </footer>
+                </form>
             </article>
         </>
     )
